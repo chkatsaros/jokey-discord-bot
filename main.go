@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"jokey-discord-bot/bot"
 	"jokey-discord-bot/config"
+	"net/http"
+	"os"
 )
 
 func main() {
@@ -16,5 +18,5 @@ func main() {
 
 	bot.Start()
 
-	<-make(chan struct{})
+	http.ListenAndServe(":"+os.Getenv("PORT"), nil)
 }
