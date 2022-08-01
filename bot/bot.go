@@ -40,7 +40,7 @@ func Start() {
 		return
 	}
 	//If every thing works fine we will be printing this.
-	fmt.Println("Bot is running !")
+	fmt.Println("Bot is running!")
 }
 
 //Definition of messageHandler function it takes two arguments first one is discordgo.Session which is s , second one is discordgo.MessageCreate which is m.
