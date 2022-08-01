@@ -1,0 +1,1 @@
+web: bin/jokey-discord-bot
