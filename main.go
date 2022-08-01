@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"jokey-discord-bot/bot"
-	"jokey-discord-bot/config" //we will create this later
+	"jokey-discord-bot/config"
 )
 
 func main() {
@@ -17,5 +17,4 @@ func main() {
 	bot.Start()
 
 	<-make(chan struct{})
-	return
 }
