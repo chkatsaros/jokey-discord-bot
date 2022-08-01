@@ -16,8 +16,8 @@ var (
 func ReadConfig() error {
 	fmt.Println("Reading config file...")
 
-	Token = goDotEnvVariable("token")
-	BotPrefix = goDotEnvVariable("botPrefix")
+	Token = goDotEnvVariable("TOKEN")
+	BotPrefix = goDotEnvVariable("BOT_PREFIX")
 
 	fmt.Println("==> Token: ", Token)
 	fmt.Println("==> BotPrefix: ", BotPrefix)
