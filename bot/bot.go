@@ -48,18 +48,70 @@ func Start() {
 	fmt.Println("Jokey is up and running!")
 }
 
-//Definition of messageHandler function it takes two arguments first one is discordgo.Session which is s , second one is discordgo.MessageCreate which is m.
+/* Definition of messageHandler function it takes two arguments first one is discordgo.Session which is s,
+second one is discordgo.MessageCreate which is m. */
 func messageHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
-	// Bot musn't reply to it's own messages , to confirm it we perform this check.
+
+	// Bot musn't reply to it's own messages, to confirm it we perform this check.
 	if m.Author.ID == BotId {
 		return
 	}
-	// If we message ping to our bot in our discord it will return us pong .
+
+	if strings.ToLower(m.Content) == "jokey help" {
+		helpMssg := "How can I help you today?"
+		_, _ = s.ChannelMessageSend(m.ChannelID, helpMssg)
+	}
+
 	if strings.ToLower(m.Content) == "joke" {
 
 		joke := getRandomJoke()
 
+		var complexMssg discordgo.MessageSend
+
+		complexMssg.Components = []discordgo.MessageComponent{
+			discordgo.ActionsRow{
+				Components: []discordgo.MessageComponent{
+					discordgo.SelectMenu{
+						// Select menu, as other components, must have a customID, so we set it to this value.
+						CustomID:    "select",
+						Placeholder: "Choose your favorite programming language 👇",
+						Options: []discordgo.SelectMenuOption{
+							{
+								Label: "Go",
+								// As with components, this things must have their own unique "id" to identify which is which.
+								// In this case such id is Value field.
+								Value: "go",
+								Emoji: discordgo.ComponentEmoji{
+									Name: "🦦",
+								},
+								// You can also make it a default option, but in this case we won't.
+								Default:     false,
+								Description: "Go programming language",
+							},
+							{
+								Label: "JS",
+								Value: "js",
+								Emoji: discordgo.ComponentEmoji{
+									Name: "🟨",
+								},
+								Description: "JavaScript programming language",
+							},
+							{
+								Label: "Python",
+								Value: "py",
+								Emoji: discordgo.ComponentEmoji{
+									Name: "🐍",
+								},
+								Description: "Python programming language",
+							},
+						},
+					},
+				},
+			},
+		}
+
 		_, _ = s.ChannelMessageSend(m.ChannelID, joke)
+		_, _ = s.ChannelMessageSendComplex(m.ChannelID, &complexMssg)
 	}
 }
 
