@@ -85,10 +85,15 @@ func getRandomJoke() string {
 
 	switch res.JokeType {
 	case "single":
-		return "> " + res.Joke[0]
+		return formatJokeMessage(res.Joke[0])
 	case "twopart":
-		return "> " + res.Joke[0] + "\r\n> " + res.Joke[1]
+		return formatJokeMessage(res.Joke[0] + "\r\n> " + res.Joke[1])
 	}
 
 	return ""
+}
+
+func formatJokeMessage(joke string) string {
+	formatted := "> " + joke
+	return formatted
 }
