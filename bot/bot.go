@@ -66,45 +66,7 @@ func messageHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
 
 		joke := getRandomJoke()
 
-		var complexMssg discordgo.MessageSend
-
-		complexMssg.Content = joke
-		complexMssg.Components = []discordgo.MessageComponent{
-			// ActionRow is a container of all buttons within the same row.
-			discordgo.ActionsRow{
-				Components: []discordgo.MessageComponent{
-					discordgo.Button{
-						// Label is what the user will see on the button.
-						Label: "Yes",
-						// Style provides coloring of the button. There are not so many styles tho.
-						Style: discordgo.SuccessButton,
-						// Disabled allows bot to disable some buttons for users.
-						Disabled: false,
-						// CustomID is a thing telling Discord which data to send when this button will be pressed.
-						CustomID: "fd_yes",
-					},
-					discordgo.Button{
-						Label:    "No",
-						Style:    discordgo.DangerButton,
-						Disabled: false,
-						CustomID: "fd_no",
-					},
-					discordgo.Button{
-						Label:    "I don't know",
-						Style:    discordgo.LinkButton,
-						Disabled: false,
-						// Link buttons don't require CustomID and do not trigger the gateway/HTTP event
-						URL: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-						Emoji: discordgo.ComponentEmoji{
-							Name: "🤷",
-						},
-					},
-				},
-			},
-		}
-
-		// _, _ = s.ChannelMessageSend(m.ChannelID, joke)
-		_, _ = s.ChannelMessageSendComplex(m.ChannelID, &complexMssg)
+		_, _ = s.ChannelMessageSend(m.ChannelID, joke)
 	}
 }
 
@@ -123,9 +85,9 @@ func getRandomJoke() string {
 
 	switch res.JokeType {
 	case "single":
-		return res.Joke[0]
+		return "> " + res.Joke[0]
 	case "twopart":
-		return res.Joke[0] + "\n" + res.Joke[1]
+		return "> " + res.Joke[0] + "\r\n> " + res.Joke[1]
 	}
 
 	return ""
