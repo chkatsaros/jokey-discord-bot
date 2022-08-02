@@ -68,6 +68,7 @@ func messageHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
 
 		var complexMssg discordgo.MessageSend
 
+		complexMssg.Content = joke
 		complexMssg.Components = []discordgo.MessageComponent{
 			// ActionRow is a container of all buttons within the same row.
 			discordgo.ActionsRow{
@@ -102,7 +103,7 @@ func messageHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
 			},
 		}
 
-		_, _ = s.ChannelMessageSend(m.ChannelID, joke)
+		// _, _ = s.ChannelMessageSend(m.ChannelID, joke)
 		_, _ = s.ChannelMessageSendComplex(m.ChannelID, &complexMssg)
 	}
 }
