@@ -95,5 +95,5 @@ func getRandomJoke() string {
 
 func formatJokeMessage(joke string) string {
 	formatted := "> " + joke
-	return formatted
+	return strings.ReplaceAll(formatted, "\n", "\r\n")
 }
