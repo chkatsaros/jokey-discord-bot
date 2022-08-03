@@ -15,8 +15,8 @@
   <a href="https://github.com/chkatsaros/jokey-discord-bot/">
     <img src='./images/jokey-logo.png' alt='Jokey Logo' width=200/>
   </a>
-
-   ### jokey-discord-bot</font>
+  <br/>
+  <br/>
 
   <p align="center">
     :robot: <strong>Jokey</strong> is a joke bot to integrate to your <a href="https://discord.com/" alt="Discord Link">discord</a> servers :robot:
