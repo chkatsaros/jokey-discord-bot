@@ -19,7 +19,7 @@
    ### jokey-discord-bot</font>
 
   <p align="center">
-    :robot: <strong>Jokey</strong> is a joke bot to integrate to your discord servers :robot:
+    :robot: <strong>Jokey</strong> is a joke bot to integrate to your <a href="https://discord.com/" alt="Discord Link">discord</a> servers :robot:
     <br />
     <a href="https://github.com/chkatsaros/jokey-discord-bot"><strong>Explore the docs »</strong></a>
     <br />
@@ -29,9 +29,9 @@
     </a>
     <br />
     <br />
-    <a href="https://github.com/chkatsaros/jokey-discord-bot/issues">Request Feature</a>
+    <a href="https://github.com/chkatsaros/jokey-discord-bot/issues/new?labels=bug">Request Feature</a>
     ·
-    <a href="https://github.com/chkatsaros/jokey-discord-bot/issues">Report Bug</a>
+    <a href="https://github.com/chkatsaros/jokey-discord-bot/issues/new?labels=enhancement">Report Bug</a>
     ·
     <a href="https://discord.com/oauth2/authorize?client_id=1003384862947946538&scope=bot">Add to your server</a>
   </p>
