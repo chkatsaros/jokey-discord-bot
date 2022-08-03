@@ -181,6 +181,7 @@ Project Link: [https://github.com/chkatsaros/jokey-discord-bot](https://github.c
 
 - [DiscordGo](https://github.com/bwmarrin/discordgo)
 - [Discord Bot in Golang](https://github.com/Rahulkumar2002/discord-bot-golang?ref=golangexample.com)
+- [JokeAPI](https://jokeapi.dev/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
