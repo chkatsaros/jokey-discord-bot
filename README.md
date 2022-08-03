@@ -67,6 +67,12 @@
 
 ## About The Project
 
+<div align="center">
+  <a href="https://github.com/chkatsaros/jokey-discord-bot/">
+    <img src='./images/jokey-about.png' alt='Jokey About'/>
+  </a>
+</div>
+<br/>
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
