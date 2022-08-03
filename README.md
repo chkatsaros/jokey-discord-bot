@@ -65,7 +65,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -88,12 +88,12 @@
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
+<!-- This is an example of how you may give instructions on setting up your project locally. -->
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+<!-- This is an example of how to list things you need to use the software and how to install them.
 
 - npm
   ```sh
@@ -114,7 +114,7 @@ This is an example of how to list things you need to use the software and how to
 4. Enter your API in `config.js`
    ```js
    const API_KEY = "ENTER YOUR API";
-   ```
+   ``` -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -132,6 +132,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
+- [ ] Add commands for particular joke types
+- [ ] Update [__jokey help__](https://github.com/chkatsaros/jokey-discord-bot/blob/master/bot/bot.go#L60) command
 - [ ] Migrate to interaction
 - [ ] Add database of blacklisted jokes
 - [ ] Add __report__ and __next joke__ interactions  
@@ -161,7 +163,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See the `LICENSE` [here](https://github.com/chkatsaros/jokey-discord-bot/blob/master/LICENSE) for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
