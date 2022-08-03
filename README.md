@@ -196,7 +196,7 @@ Project Link: [https://github.com/chkatsaros/jokey-discord-bot](https://github.c
 [issues-shield]: https://img.shields.io/github/issues/chkatsaros/jokey-discord-bot.svg?style=for-the-badge
 [issues-url]: https://github.com/chkatsaros/jokey-discord-bot/issues
 [license-shield]: https://img.shields.io/github/license/chkatsaros/jokey-discord-bot.svg?style=for-the-badge
-[license-url]: https://github.com/chkatsaros/jokey-discord-bot/blob/master/LICENSE.txt
+[license-url]: https://github.com/chkatsaros/jokey-discord-bot/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/chkatsaros
 [product-screenshot]: images/screenshot.png
