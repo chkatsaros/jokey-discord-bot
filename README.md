@@ -1,11 +1,13 @@
-<div id="top"></div>
+<div id="top" align="center">
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
+  [![Contributors][contributors-shield]][contributors-url]
+  [![Forks][forks-shield]][forks-url]
+  [![Stargazers][stars-shield]][stars-url]
+  [![Issues][issues-shield]][issues-url]
+  [![MIT License][license-shield]][license-url]
+  <!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
+
+ </div>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -17,7 +19,7 @@
 <h3 align="center">jokey-discord-bot</h3>
 
   <p align="center">
-    :robot: Jokey is a joke bot to integrate to your discord servers :robot:
+    :robot: <strong>Jokey</strong> is a joke bot to integrate to your discord servers :robot:
     <br />
     <a href="https://github.com/chkatsaros/jokey-discord-bot"><strong>Explore the docs »</strong></a>
     <br />
@@ -194,7 +196,7 @@ Project Link: [https://github.com/chkatsaros/jokey-discord-bot](https://github.c
 [contributors-url]: https://github.com/chkatsaros/jokey-discord-bot/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/chkatsaros/jokey-discord-bot.svg?style=for-the-badge
 [forks-url]: https://github.com/chkatsaros/jokey-discord-bot/network/members
-[stars-shield]: https://img.shields.io/github/stars/chkatsaros/jokey-discord-bot.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/chkatsaros/jokey-discord-bot.svg?style=for-the-badge&color=ffac33
 [stars-url]: https://github.com/chkatsaros/jokey-discord-bot/stargazers
 [issues-shield]: https://img.shields.io/github/issues/chkatsaros/jokey-discord-bot.svg?style=for-the-badge
 [issues-url]: https://github.com/chkatsaros/jokey-discord-bot/issues
