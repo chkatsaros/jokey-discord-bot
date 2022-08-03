@@ -71,14 +71,16 @@
 
 ### Built With
 
-- [![Next][next.js]][next-url]
+- [![Go][golang]][golang-url]
+- [![JokeAPI][jokeapi]][jokeapi-url]
+<!-- - [![Next][next.js]][next-url]
 - [![React][react.js]][react-url]
 - [![Vue][vue.js]][vue-url]
 - [![Angular][angular.io]][angular-url]
 - [![Svelte][svelte.dev]][svelte-url]
 - [![Laravel][laravel.com]][laravel-url]
 - [![Bootstrap][bootstrap.com]][bootstrap-url]
-- [![JQuery][jquery.com]][jquery-url]
+- [![JQuery][jquery.com]][jquery-url] -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -130,12 +132,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
+- [ ] Migrate to interaction
+- [ ] Add database of blacklisted jokes
+- [ ] Add __report__ and __next joke__ interactions  
 
-See the [open issues](https://github.com/chkatsaros/jokey-discord-bot/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/chkatsaros/jokey-discord-bot/issues) for a full list of proposed features (and known issues) and feel free to request a new feature or functionality.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -149,9 +150,9 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feat/amazing_feature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+4. Push to the Branch (`git push origin feat/amazing_feature`)
 5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -160,7 +161,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -168,7 +169,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - chris.d.katsaros@gmail.com
+Christos Katsaros - [chkatsaros.com](https://www.chkatsaros.com) - chris.d.katsaros@gmail.com
 
 Project Link: [https://github.com/chkatsaros/jokey-discord-bot](https://github.com/chkatsaros/jokey-discord-bot)
 
@@ -178,9 +179,8 @@ Project Link: [https://github.com/chkatsaros/jokey-discord-bot](https://github.c
 
 ## Acknowledgments
 
-- []()
-- []()
-- []()
+- [DiscordGo](https://github.com/bwmarrin/discordgo)
+- [Discord Bot in Golang](https://github.com/Rahulkumar2002/discord-bot-golang?ref=golangexample.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -216,3 +216,7 @@ Project Link: [https://github.com/chkatsaros/jokey-discord-bot](https://github.c
 [bootstrap-url]: https://getbootstrap.com
 [jquery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [jquery-url]: https://jquery.com
+[golang]: https://img.shields.io/badge/GO-29BEB0?style=for-the-badge&logo=go&logoColor=white
+[golang-url]: https://go.dev/
+[jokeapi]: https://img.shields.io/badge/jokeapi-3f188f?style=for-the-badge
+[jokeapi-url]: https://github.com/Sv443/JokeAPI
