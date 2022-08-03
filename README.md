@@ -16,7 +16,7 @@
     <img src='./images/jokey-logo.png' alt='Jokey Logo' width=200/>
   </a>
 
-<h3 align="center">jokey-discord-bot</h3>
+   ### jokey-discord-bot</font>
 
   <p align="center">
     :robot: <strong>Jokey</strong> is a joke bot to integrate to your discord servers :robot:
@@ -38,7 +38,7 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<details open>
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -54,7 +54,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+<!--     <li><a href="#usage">Usage</a></li> -->
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -106,11 +106,11 @@ To get a local copy up and running follow these simple example steps.
 - npm
   ```sh
   npm install npm@latest -g
-  ```
+  ``` -->
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+<!-- 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
    git clone https://github.com/chkatsaros/jokey-discord-bot.git
