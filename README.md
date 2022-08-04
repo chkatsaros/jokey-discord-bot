@@ -1,13 +1,18 @@
-<div id="top" align="center">
+<div id="top"></div>
 
+# Jokey 
+
+<div align="center">
+  
   [![Contributors][contributors-shield]][contributors-url]
   [![Forks][forks-shield]][forks-url]
   [![Stargazers][stars-shield]][stars-url]
   [![Issues][issues-shield]][issues-url]
   [![MIT License][license-shield]][license-url]
+  [![Add To Discord][add-to-discord-shield]][add-to-discord-url]
   <!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
-
- </div>
+  
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -24,11 +29,6 @@
     <a href="https://github.com/chkatsaros/jokey-discord-bot"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://discord.com/oauth2/authorize?client_id=1003384862947946538&scope=bot">
-        <img src='./images/addtodiscord.png' alt='Add to discord button'/>
-    </a>
-    <br />
-    <br />
     <a href="https://github.com/chkatsaros/jokey-discord-bot/issues/new?labels=bug">Request Feature</a>
     ·
     <a href="https://github.com/chkatsaros/jokey-discord-bot/issues/new?labels=enhancement">Report Bug</a>
@@ -37,35 +37,35 @@
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
+## 📝 Table of Contents
+
+  <ul>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#-about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#-built-with">Built With</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#-getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
 <!--     <li><a href="#usage">Usage</a></li> -->
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+    <li><a href="#-roadmap">Roadmap</a></li>
+    <li><a href="#-contributing">Contributing</a></li>
+    <li><a href="#-license">License</a></li>
+    <li><a href="#-contact">Contact</a></li>
+    <li><a href="#-acknowledgments">Acknowledgments</a></li>
+  </ul>
+  
+  <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## 💡 About The Project
 
 <div align="center">
   <a href="https://github.com/chkatsaros/jokey-discord-bot/">
@@ -75,9 +75,15 @@
 <br/>
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
+
+<div align="right">
+  <a href="https://discord.com/oauth2/authorize?client_id=1003384862947946538&scope=bot">
+    <img src="./images/addtodiscord.png" alt="Add to discord button" height="36"/>
+  </a>
+</div>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Built With
+### ⛏️ Built With
 
 - [![Go][golang]][golang-url]
 - [![JokeAPI][jokeapi]][jokeapi-url]
@@ -94,7 +100,7 @@
 
 <!-- GETTING STARTED -->
 
-## Getting Started
+## 🏁 Getting Started
 
 <!-- This is an example of how you may give instructions on setting up your project locally. -->
 To get a local copy up and running follow these simple example steps.
@@ -138,7 +144,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 
-## Roadmap
+## 🧭 Roadmap
 
 - [ ] Add commands for particular joke types
 - [ ] Update [__jokey help__](https://github.com/chkatsaros/jokey-discord-bot/blob/master/bot/bot.go#L60) command
@@ -152,7 +158,7 @@ See the [open issues](https://github.com/chkatsaros/jokey-discord-bot/issues) fo
 
 <!-- CONTRIBUTING -->
 
-## Contributing
+## ⌨️ Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -169,7 +175,7 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- LICENSE -->
 
-## License
+## 🏛️ License
 
 Distributed under the MIT License. See the `LICENSE` [here](https://github.com/chkatsaros/jokey-discord-bot/blob/master/LICENSE) for more information.
 
@@ -177,7 +183,7 @@ Distributed under the MIT License. See the `LICENSE` [here](https://github.com/c
 
 <!-- CONTACT -->
 
-## Contact
+## 📫 Contact
 
 Christos Katsaros - [chkatsaros.com](https://www.chkatsaros.com) - chris.d.katsaros@gmail.com
 
@@ -187,7 +193,7 @@ Project Link: [https://github.com/chkatsaros/jokey-discord-bot](https://github.c
 
 <!-- ACKNOWLEDGMENTS -->
 
-## Acknowledgments
+## 🎉 Acknowledgments
 
 - [DiscordGo](https://github.com/bwmarrin/discordgo)
 - [Discord Bot in Golang](https://github.com/Rahulkumar2002/discord-bot-golang?ref=golangexample.com)
@@ -209,6 +215,8 @@ Project Link: [https://github.com/chkatsaros/jokey-discord-bot](https://github.c
 [license-shield]: https://img.shields.io/github/license/chkatsaros/jokey-discord-bot.svg?style=for-the-badge
 [license-url]: https://github.com/chkatsaros/jokey-discord-bot/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[add-to-discord-url]: https://discord.com/oauth2/authorize?client_id=1003384862947946538&scope=bot
+[add-to-discord-shield]: https://img.shields.io/badge/-Add%20to%20discord-transparent.svg?style=for-the-badge&logo=discord&logoColor=white&color=7289da
 [linkedin-url]: https://linkedin.com/in/chkatsaros
 [product-screenshot]: images/screenshot.png
 [next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
