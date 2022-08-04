@@ -43,7 +43,7 @@
     <li>
       <a href="#-about-the-project">About The Project</a>
       <ul>
-        <li><a href="#-built-with">Built With</a></li>
+        <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
@@ -55,8 +55,8 @@
     </li>
 <!--     <li><a href="#usage">Usage</a></li> -->
     <li><a href="#-roadmap">Roadmap</a></li>
-    <li><a href="#-contributing">Contributing</a></li>
-    <li><a href="#-license">License</a></li>
+    <li><a href="#%EF%B8%8F-contributing">Contributing</a></li>
+    <li><a href="#%EF%B8%8F-license">License</a></li>
     <li><a href="#-contact">Contact</a></li>
     <li><a href="#-acknowledgments">Acknowledgments</a></li>
   </ul>
@@ -81,9 +81,8 @@
     <img src="./images/addtodiscord.png" alt="Add to discord button" height="36"/>
   </a>
 </div>
-<p align="right">(<a href="#top">back to top</a>)</p>
 
-### ⛏️ Built With
+### Built With
 
 - [![Go][golang]][golang-url]
 - [![JokeAPI][jokeapi]][jokeapi-url]
