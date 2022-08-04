@@ -85,6 +85,7 @@
 ### Built With
 
 - [![Go][golang]][golang-url]
+- [![Heroku][heroku]][heroku-url]
 - [![JokeAPI][jokeapi]][jokeapi-url]
 <!-- - [![Next][next.js]][next-url]
 - [![React][react.js]][react-url]
@@ -236,5 +237,7 @@ Project Link: [https://github.com/chkatsaros/jokey-discord-bot](https://github.c
 [jquery-url]: https://jquery.com
 [golang]: https://img.shields.io/badge/GO-29BEB0?style=for-the-badge&logo=go&logoColor=white
 [golang-url]: https://go.dev/
+[heroku]: https://img.shields.io/badge/Heroku-6762A6?style=for-the-badge&logo=heroku&logoColor=white
+[heroku-url]: https://dashboard.heroku.com/
 [jokeapi]: https://img.shields.io/badge/jokeapi-3f188f?style=for-the-badge
 [jokeapi-url]: https://github.com/Sv443/JokeAPI
