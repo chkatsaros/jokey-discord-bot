@@ -1,5 +1,3 @@
-<div id="top"></div>
-
 # 🤖 Jokey 
 
 <div align="center">
@@ -62,7 +60,7 @@
     <li><a href="#-acknowledgments">Acknowledgments</a></li>
   </ul>
   
-  <p align="right">(<a href="#top">back to top</a>)</p>
+  <p align="right">(<a href="#-jokey">back to top</a>)</p>
 
 <!-- ABOUT THE PROJECT -->
 
@@ -97,7 +95,7 @@
 - [![Bootstrap][bootstrap.com]][bootstrap-url]
 - [![JQuery][jquery.com]][jquery-url] -->
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#-jokey">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -131,7 +129,7 @@ To get a local copy up and running follow these simple example steps.
    const API_KEY = "ENTER YOUR API";
    ``` -->
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#-jokey">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 
@@ -141,7 +139,7 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#top">back to top</a>)</p> -->
+<p align="right">(<a href="#-jokey">back to top</a>)</p> -->
 
 <!-- ROADMAP -->
 
@@ -155,7 +153,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 See the [open issues](https://github.com/chkatsaros/jokey-discord-bot/issues) for a full list of proposed features (and known issues) and feel free to request a new feature or functionality.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#-jokey">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -172,7 +170,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feat/amazing_feature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#-jokey">back to top</a>)</p>
 
 <!-- LICENSE -->
 
@@ -180,7 +178,7 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See the `LICENSE` [here](https://github.com/chkatsaros/jokey-discord-bot/blob/master/LICENSE) for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#-jokey">back to top</a>)</p>
 
 <!-- CONTACT -->
 
@@ -190,7 +188,7 @@ Christos Katsaros - [chkatsaros.com](https://www.chkatsaros.com) - chris.d.katsa
 
 Project Link: [https://github.com/chkatsaros/jokey-discord-bot](https://github.com/chkatsaros/jokey-discord-bot)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#-jokey">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 
@@ -200,7 +198,7 @@ Project Link: [https://github.com/chkatsaros/jokey-discord-bot](https://github.c
 - [Discord Bot in Golang](https://github.com/Rahulkumar2002/discord-bot-golang?ref=golangexample.com)
 - [JokeAPI](https://jokeapi.dev/)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#-jokey">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
