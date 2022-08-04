@@ -40,6 +40,7 @@
 ## 📝 Table of Contents
 
   <ul>
+    <li><a href="#-jokey">Intro</a></li>
     <li>
       <a href="#-about-the-project">About The Project</a>
       <ul>
